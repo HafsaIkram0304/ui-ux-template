@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --------------------- NAVBAR ----------------------------- */
+.navbar{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem 1rem 2rem ;
+
+}
+
+.navbar .head{
+display: flex;
+/* justify-content: space-between;
+align-items: center; */
+gap: 2rem;
+}
+
+.navbar .icons{
+display: flex;
+/* justify-content: space-between;
+align-items: center; */
+gap: 2rem;
+
+}
+
+/* ---------------------- HERO SECTION ----------------------------------- */
+.heroImage{
+ width: 50rem;
+height: 63rem; 
+}
+
+.heroText{
+width: 34rem;
+/* height: 16rem; */
+position: absolute;
+top: 50%;
+left: 50%;
+border-radius: 6px;
+padding: 4rem;
+line-height: 2rem;
+}
+
+.heroText h6{
+font-weight: bold;
+}
+
+.heroText h3{
+font-size: 2.5rem;
+font-weight: bolder;
+color: #B88E2F;
+}
+
+/* .heroText p{
+line-height: none;
+} */
+
+.heroText .buyBtn{
+background-color: #B88E2F;
+padding: 0.5rem 3rem 0.5rem 3rem;
+color: white;
+}
